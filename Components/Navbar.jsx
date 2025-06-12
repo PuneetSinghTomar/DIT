@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Menu, X, MapPin, Phone } from 'lucide-react';
 import Link from 'next/link';
-import ChatBot from './ChatBot';
+import ChatBot from './Chatbot';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
