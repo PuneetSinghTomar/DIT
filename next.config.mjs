@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-      domains: ['www.dituniversity.edu.in'], // Allow loading images from this domain
-    },
-  };
-  
-  export default nextConfig;
-  
+  output: 'export', // Enables static export (for `next export`)
+  images: {
+    domains: ['www.dituniversity.edu.in'], // For loading external images
+  },
+};
+
+export default nextConfig;
